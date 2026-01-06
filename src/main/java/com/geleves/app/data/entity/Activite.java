@@ -15,7 +15,7 @@ import com.geleves.app.data.AbstractEntity;
 public class Activite extends AbstractEntity {
 
     @NotEmpty
-    private String nom = "";
+    private String nom;
 
     @NotNull
     @ManyToOne
