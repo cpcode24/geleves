@@ -14,10 +14,10 @@ import com.geleves.app.data.AbstractEntity;
 public class Contact extends AbstractEntity {
 
     @NotEmpty
-    private String prenom = "";
+    private String prenom;
 
     @NotEmpty
-    private String nom = "";
+    private String nom;
 
     @ManyToOne
     @JoinColumn(name = "company_id")
