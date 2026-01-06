@@ -20,12 +20,12 @@ import com.geleves.app.data.AbstractEntity;
 public class Eleve extends AbstractEntity{
 	
 	 	@NotEmpty
-	 	private String prenom = "";
+	 	private String prenom;
 
 	    @NotEmpty
-	    private String nom = "";
+	    private String nom;
 	    
-		private String addresse = "";
+		private String addresse;
 		
 		private String matricule;
 		
