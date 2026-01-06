@@ -14,13 +14,13 @@ public class Acteur extends AbstractEntity{
 	
 
  	@NotEmpty
- 	private String prenom = "";
+ 	private String prenom;
 
     @NotEmpty
-    private String nom = "";
+    private String nom;
     
     @NotEmpty
-    private String role="";
+    private String role;
     
     @OneToMany(mappedBy="responsable")
     private List<Activite> activites = new LinkedList<>();
